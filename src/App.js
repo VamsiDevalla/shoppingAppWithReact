@@ -5,8 +5,7 @@ import Order from "./components/Order/Order";
 import Inventory from "./components/Inventory/Inventory";
 import './App.css';
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
           <div className={'catch-of-the-day'}>
               <div className={'menu'}>
@@ -16,7 +15,6 @@ class App extends Component {
               <Inventory/>
           </div>
     );
-  }
 }
 
 export default App;
